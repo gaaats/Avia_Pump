@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gaaaaaaemmm"
+    app:startDestination="@id/gaaaame1Fragment">
+
+    <fragment
+        android:id="@+id/gaaaame1Fragment"
+        android:name="com.hutchgames.cccgo.gtigthtighigthtgh.Gaaaame1Fragment"
+        android:label="fragment_gaaaame1"
+        tools:layout="@layout/fragment_gaaaame1" >
+        <action
+            android:id="@+id/action_gaaaame1Fragment_to_gaaaame2Fragment"
+            app:destination="@id/gaaaame2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gaaaame2Fragment"
+        android:name="com.hutchgames.cccgo.gtigthtighigthtgh.Gaaaame2Fragment"
+        android:label="fragment_gaaaame2"
+        tools:layout="@layout/fragment_gaaaame2" >
+        <action
+            android:id="@+id/action_gaaaame2Fragment_to_gaaaameee3Fragment"
+            app:destination="@id/gaaaameee3Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gaaaameee3Fragment"
+        android:name="com.hutchgames.cccgo.gtjigtjigtjggt.Gaaaameee3Fragment"
+        android:label="fragment_gaaaameee3"
+        tools:layout="@layout/fragment_gaaaameee3" >
+        <action
+            android:id="@+id/action_gaaaameee3Fragment_to_gaaaame1Fragment"
+            app:destination="@id/gaaaame1Fragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/gaaaame1Fragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>
